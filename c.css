@@ -1,0 +1,16 @@
+.container {
+    background-color: rgb(148, 132, 132);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+/*Using min-height: 100vh; is common for creating full-screen sections, ensuring that a specific element 
+(like a hero section or a landing page) always fills the full height of the browser window, regardless of the content inside
+*/
